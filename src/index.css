@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+/* Fallback values only. The real values come from src/config/theme.json */
+@theme {
+    --color-primary: #10b981;
+    --color-primary-hover: #34d399;
+    --color-on-primary: #022c22;
+    --color-background: #050b09;
+    --color-surface: #0b1713;
+    --color-surface-alt: #10211b;
+    --color-border: #1c3a2f;
+    --color-foreground: #ecfdf5;
+    --color-muted: #8fb3a3;
+    --color-success: #10b981;
+    --color-warning: #f59e0b;
+    --color-danger: #ef4444;
+
+    --animate-marquee: marquee var(--marquee-duration, 30s) linear infinite;
+
+    @keyframes marquee {
+        from {
+            transform: translateX(0);
+        }
+        to {
+            transform: translateX(-50%);
+        }
+    }
+}
+
+@layer base {
+    body {
+        background-color: var(--color-background);
+        color: var(--color-foreground);
+    }
+}

@@ -1,0 +1,115 @@
+{
+  "language": "en",
+  "theme": "emerald-dark",
+  "meta": {
+    "title": "MyServer | Minecraft Server",
+    "description": "Join MyServer, the ultimate Minecraft survival experience."
+  },
+  "server": {
+    "name": "MyServer",
+    "ip": "play.myserver.net",
+    "maintenance": false,
+    "statusApi": "https://api.mcsrvstat.us/3/{ip}",
+    "refreshInterval": 60
+  },
+  "links": {
+    "discord": "https://discord.gg/example",
+    "shop": "https://shop.example.com"
+  },
+  "hero": {
+    "backgroundImage": "/images/hero-bg.png",
+    "logo": {
+      "image": "/images/logo.png",
+      "alt": "MyServer"
+    },
+    "slogan": "Build. Survive. Conquer.",
+    "copyNotice": "Server IP copied to clipboard!",
+    "buttons": {
+      "discord": "Discord",
+      "shop": "Shop"
+    }
+  },
+  "serverInfo": {
+    "loading": "Loading...",
+    "playersFormat": "{online} / {max}",
+    "status": {
+      "online": "Online",
+      "offline": "Offline",
+      "maintenance": "Maintenance"
+    },
+    "items": [
+      { "type": "status", "label": "Server Status", "icon": "activity" },
+      { "type": "players", "label": "Players Online", "icon": "users" },
+      { "type": "text", "label": "Uptime", "value": "24/7", "icon": "clock" },
+      { "type": "text", "label": "Supported Versions", "value": "1.20 - 1.21", "icon": "package" }
+    ]
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "What makes our server special.",
+    "cards": [
+      {
+        "image": "/images/survival.png",
+        "title": "Survival",
+        "text": "Explore a vast world, build your base and survive together with the community."
+      },
+      {
+        "image": "/images/community.png",
+        "title": "Community",
+        "text": "Join a friendly and active community with players from all over the world."
+      },
+      {
+        "image": "/images/events.png",
+        "title": "Events",
+        "text": "Take part in regular events and win exclusive rewards."
+      }
+    ]
+  },
+  "staff": {
+    "title": "Our Team",
+    "subtitle": "The people who keep the server running.",
+    "avatarApi": "https://api.mcheads.org/head/{uuid}/256",
+    "profileApi": "https://playerdb.co/api/player/minecraft/{uuid}",
+    "unknownName": "Unknown",
+    "scrollSpeed": 50,
+    "ranks": {
+      "Owner": "#ef4444",
+      "Admin": "#f97316",
+      "Moderator": "#3b82f6",
+      "Builder": "#a855f7"
+    },
+    "members": [
+      { "uuid": "601c3e79-9cc5-486f-8502-eedf1743aa9f", "rank": "Owner" },
+      { "uuid": "7b534d75-1f75-4592-afe3-d4dc88a8b2c7", "rank": "Admin" },
+      { "uuid": "fa603f36-0721-459d-9973-00543cfc63c4", "rank": "Moderator" },
+      { "uuid": "088fe793-aa54-43a2-a5eb-5790e704274c", "rank": "Builder" },
+      { "uuid": "7e6ef8ba-2767-4c0d-898b-810326492863", "rank": "Builder" }
+    ]
+  },
+  "vote": {
+    "title": "Vote for Us",
+    "subtitle": "Support the server and get rewarded.",
+    "buttonLabel": "Vote now",
+    "links": [
+      { "name": "Minecraft Server List", "url": "https://minecraft-server-list.com" },
+      { "name": "Planet Minecraft", "url": "https://www.planetminecraft.com/servers/" },
+      { "name": "TopG", "url": "https://topg.org/minecraft-servers/" },
+      { "name": "Minecraft Servers", "url": "https://minecraftservers.org" },
+      { "name": "Minecraft MP", "url": "https://minecraft-mp.com" },
+      { "name": "Minecraft Buzz", "url": "https://minecraft.buzz" }
+    ]
+  },
+  "discordCta": {
+    "title": "Join our Discord",
+    "text": "Chat with the community, get support and stay up to date.",
+    "button": "Join Discord"
+  },
+  "footer": {
+    "copyright": "© {year} {name}. All rights reserved.",
+    "disclaimer": "Not affiliated with Mojang Studios or Microsoft.",
+    "buttons": {
+      "discord": "Discord",
+      "shop": "Shop"
+    }
+  }
+}

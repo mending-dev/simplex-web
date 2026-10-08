@@ -1,0 +1,17 @@
+{
+  "colorScheme": "dark",
+  "colors": {
+    "primary": "#f43f5e",
+    "primary-hover": "#fb7185",
+    "on-primary": "#2b0610",
+    "background": "#0f0709",
+    "surface": "#1a0d11",
+    "surface-alt": "#26131a",
+    "border": "#42202b",
+    "foreground": "#fff1f3",
+    "muted": "#c49aa4",
+    "success": "#22c55e",
+    "warning": "#f59e0b",
+    "danger": "#ef4444"
+  }
+}
