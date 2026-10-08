@@ -114,7 +114,3 @@ Open the browser console with `F12` and check the terminal. The most common caus
 
 **Updating with Git**
 Run `git pull`. If you changed config files yourself, Git may report a conflict. In that case keep your own values and take over only the new entries.
-
-## Next step
-
-- [Configuration](configuration.md)

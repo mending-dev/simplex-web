@@ -32,8 +32,6 @@ Put your images into `public/images/`. In `site.json` you reference them with a 
 
 You can also use a full web address such as `https://example.com/image.jpg`.
 
-The default config uses placeholder images from `picsum.photos`. Replace them with your own images.
-
 ## Settings at a glance
 
 | Key | Controls |
@@ -254,7 +252,7 @@ Add one object per card to `cards`. There is no limit. The cards are arranged in
 | `ranks` | Rank names and their colors (hex color codes) |
 | `members` | The team. Each member has a `uuid` and a `rank` |
 
-**Adding a member:** Add an entry with the player's UUID and a rank. You don't have to type the username, because it is loaded automatically. You can find a UUID by looking up a username on [playerdb.co](https://playerdb.co) or [namemc.com](https://namemc.com).
+**Adding a member:** Add an entry with the player's UUID and a rank. You don't have to type the username, because it is loaded automatically. You can find a UUID by looking up a username on [NameMC.com](https://namemc.com) or [Laby.net](https://laby.net).
 
 **Order:** The order in `members` is the order in the carousel.
 
@@ -347,8 +345,3 @@ The order of the sections is defined in `src/App.jsx`:
 ```
 
 To hide a section, delete its line (and its `import` line at the top of the file). To reorder sections, move the lines.
-
-## Next steps
-
-- [Color Themes](color-themes.md)
-- [Deploy](deploy.md)

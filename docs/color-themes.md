@@ -102,7 +102,3 @@ If you want to add a new color key in a theme file, you must also register it in
 ```
 
 After that you can use it in components as `bg-highlight` or `text-highlight`.
-
-## Next step
-
-- [Deploy](deploy.md)
