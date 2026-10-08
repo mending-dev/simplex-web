@@ -31,7 +31,7 @@ You do **not** need to know how to code to use it: every text, link, image, colo
 ## Quick start
 
 ```bash
-git clone https://github.com/your-name/minecraft-landing-page.git
+git clone https://github.com/mending-dev/simplex-web.git
 cd minecraft-landing-page
 npm install
 npm run test
