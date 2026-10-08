@@ -17,7 +17,7 @@
     "shop": "https://shop.example.com"
   },
   "hero": {
-    "backgroundImage": "/images/hero-bg.png",
+    "backgroundImage": "/images/background.png",
     "logo": {
       "image": "/images/logo.png",
       "alt": "MyServer"
